@@ -1,0 +1,248 @@
+Uri: https://www.arikair.com/
+File Name: c:\Downloaded Web Sites\www.arikair.com\index.htm
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/images/favicon.ico
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://www.arikair.com/assets/css/animate.min.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\animate.min.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/assets/css/bootstrap-select.min.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\bootstrap-select.min.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/assets/css/owl.carousel.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\owl.carousel.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/assets/css/owl-carousel-theme.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\owl-carousel-theme.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/assets/css/bootstrap.min.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/assets/css/flexslider.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\flexslider.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/assets/css/style.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\style.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/assets/css/dummy.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\dummy.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/font-awesome/css/font-awesome.min.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\font-awesome\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/css/datepicker.min.css
+File Name: c:\Downloaded Web Sites\www.arikair.com\css\datepicker.min.css
+Content Type: text/css
+
+Uri: https://www.arikair.com/join-us.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\join-us.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/js/jquery.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/assets/images/logo.png
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\logo.png
+Content Type: image/png
+
+Uri: https://www.arikair.com/assets/images/12.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\12.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/arb.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\arb.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/akwa 800 x 800.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\akwa 800 x 800.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/9.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\9.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/lagos.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\lagos.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour2.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour3.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour4.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour5.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour6.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour6.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour7.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour7.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour8.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour8.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/plugins/owl.carousel.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\plugins\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/assets/js/jquery-ui.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\js\jquery-ui.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/assets/js/bootstrap-select.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\js\bootstrap-select.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/assets/plugins/wow.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\plugins\wow.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/assets/plugins/supersized.3.1.3.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\plugins\supersized.3.1.3.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/assets/js/js.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\js\js.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/js/bootstrap.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/js/matchHeight.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\matchHeight.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/js/placeholder.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\placeholder.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/js/jquery.lazyload.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\jquery.lazyload.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/js/moment.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\moment.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/js/jquery.datepicker.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\jquery.datepicker.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/js/jquery.marque.min.js
+File Name: c:\Downloaded Web Sites\www.arikair.com\js\jquery.marque.min.js
+Content Type: application/javascript
+
+Uri: https://www.arikair.com/assets/css/owl.video.play.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\owl.video.play.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/fonts/glyphicons-halflings-regular.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\fonts\glyphicons-halflings-regular.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/fonts/glyphicons-halflings-regulard41d.html?
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\fonts\glyphicons-halflings-regulard41d.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/fonts/glyphicons-halflings-regular-2.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\fonts\glyphicons-halflings-regular-2.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/fonts/glyphicons-halflings-regular-3.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\fonts\glyphicons-halflings-regular-3.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/fonts/glyphicons-halflings-regular-4.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\fonts\glyphicons-halflings-regular-4.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/fonts/glyphicons-halflings-regular-5.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\fonts\glyphicons-halflings-regular-5.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/css/fonts/flexslider-icon.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\fonts\flexslider-icon.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/css/fonts/flexslider-icond41d.html?
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\fonts\flexslider-icond41d.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/css/fonts/flexslider-icon-2.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\fonts\flexslider-icon-2.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/css/fonts/flexslider-icon-3.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\fonts\flexslider-icon-3.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/css/fonts/flexslider-icon-4.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\css\fonts\flexslider-icon-4.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/font-awesome/fonts/fontawesome-webfonte0a5.eot?v=4.3.0
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\font-awesome\fonts\fontawesome-webfonte0a5.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.arikair.com/assets/font-awesome/fonts/fontawesome-webfontd41d.eot?
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\font-awesome\fonts\fontawesome-webfontd41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.arikair.com/assets/font-awesome/fonts/fontawesome-webfonte0a5.woff2?v=4.3.0
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\font-awesome\fonts\fontawesome-webfonte0a5.woff2
+Content Type: 
+
+Uri: https://www.arikair.com/assets/font-awesome/fonts/fontawesome-webfonte0a5.woff?v=4.3.0
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\font-awesome\fonts\fontawesome-webfonte0a5.woff
+Content Type: application/font-woff
+
+Uri: https://www.arikair.com/assets/font-awesome/fonts/fontawesome-webfonte0a5.ttf?v=4.3.0
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\font-awesome\fonts\fontawesome-webfonte0a5.ttf
+Content Type: application/font-sfnt
+
+Uri: https://www.arikair.com/assets/font-awesome/fonts/fontawesome-webfonte0a5.svg?v=4.3.0
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\font-awesome\fonts\fontawesome-webfonte0a5.svg
+Content Type: image/svg+xml
+
+Uri: https://www.arikair.com/index.html
+File Name: c:\Downloaded Web Sites\www.arikair.com\index.html
+Content Type: text/html
+
+Uri: https://www.arikair.com/assets/images/2.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/3.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\3.jpg
+Content Type: image/jpeg
+
+Uri: https://www.arikair.com/assets/images/tour1.jpg
+File Name: c:\Downloaded Web Sites\www.arikair.com\assets\images\tour1.jpg
+Content Type: image/jpeg
+

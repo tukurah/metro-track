@@ -1,0 +1,913 @@
+﻿
+<!DOCTYPE html>
+<html class="load-full-screen">
+
+<head>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-93272846-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-93272846-2');
+	</script>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+	<meta name="description" content="">
+	<meta name="author" content="Metro Track Limited">
+	<link href="./assets/images/Metro logo.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	
+	<title>Metro Track</title>
+	
+    <!-- STYLES -->
+
+	
+	<link href="assets\css\animate.min.css" rel="stylesheet">
+	<link href="assets\css\bootstrap-select.min.css" rel="stylesheet">
+	<link href="assets\css\owl.carousel.css" rel="stylesheet">
+	<link href="assets\css\owl-carousel-theme.css" rel="stylesheet">
+    <link href="assets\css\bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets\css\flexslider.css" rel="stylesheet" media="screen">
+	<link href="assets\css\style.css" rel="stylesheet" media="screen">
+	<!-- LIGHT -->
+	<link rel="stylesheet" type="text/css" href="assets\css\dummy.html" id="select-style">
+	<link href="assets\font-awesome\css\font-awesome.min.css" rel="stylesheet">
+	
+	<!-- FONTS -->
+  <link rel="stylesheet" href="css\datepicker.min.css">
+        <!--<link rel="stylesheet" href="master_new.css"> -->
+
+    <!--<link href="css/select2.min.css" rel="stylesheet" />-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,800,700,600' rel='stylesheet' type='text/css'>
+
+
+
+    <script src="js\jquery.min.js"></script>
+    <script src="https://metrotrack.crane.aero/web/FlightSearchAPI?language=en"></script>
+
+
+
+
+   <script type="text/javascript">
+    // FlightSearch object is initialized within the new Document Ready Osibanjo LKMZ44
+    $(document).ready(function(){
+        // Please note that window.flightSearch is a global variable
+
+        try{
+
+
+        window.flightSearch = new FlightSearch();
+
+            // Default HTML standard for date is yyyy-MM-dd, but other versions may be preferred for user experience
+            flightSearch.dateFormat = "dd/MM/yyyy";  
+            /*Optional parameters will be inserted here
+            flightSearch.parameterName = "value";*/
+           /* flightSearch.actionURL = " http://atc-stage.crane.aero/web/RezvEntry.xhtml";*/
+            /*flightSearch.actionURL = "http://atc-stage.crane.aero/web/AvailabilityResults.xhtml";*/
+
+           flightSearch.actionURL="https://metrotrack.crane.aero/web/RezvEntry.xhtml";
+
+            // Initializing the script for the flight search panel
+            flightSearch.init();
+        }
+        catch(e){
+            console.log("could not communicate");
+        }
+        });
+    </script>
+
+
+</head>
+<body class="load-full-screen">
+
+<!-- BEGIN: PRELOADER -->
+<div id="loader" class="load-full-screen">
+	<div class="loading-animation">
+		<span><i class="fa fa-train"></i></span>
+		<span><i class="fa fa-user"></i></span>
+		<span><i class="fa fa-ticket"></i></span>
+		<span><i class="fa fa-bag"></i></span>
+	</div>
+</div>
+<!-- END: PRELOADER -->
+
+
+<!-- END: COLOR SWITCHER -->
+
+<!-- BEGIN: SITE-WRAPPER -->
+<div class="site-wrapper">
+
+	<div class="clearfix"></div>
+	<div class="row transparent-menu">
+		<div class="container clear-padding">
+			<!-- BEGIN: HEADER -->
+			<div class="navbar-wrapper">
+				<div class="navbar navbar-default" role="navigation">
+					<!-- BEGIN: NAV-CONTAINER -->
+					<div class="nav-container">
+						<div class="navbar-header">
+							<!-- BEGIN: TOGGLE BUTTON (RESPONSIVE)-->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							
+							<!-- BEGIN: LOGO -->
+							<a class="logo" href="index.html"><img src="./assets/images/metro_logo_3_gnv_icon 33.ico"> </a>
+						</div>
+						
+						<!-- BEGIN: NAVIGATION <ul class="dropdown-menu mega-menu"> -->       
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a class="" href="index.html"><i class="fa fa-home"></i> Home </a>
+									
+								</li>
+							
+
+								<!-- <li class="dropdown mega">
+									<a class="" href="join-us.html"><i class="fa fa-tag"></i> Career </a>
+									
+									<div class="clearfix"></div>
+								</li>  -->
+							
+								<li class="dropdown mega">
+									<a class="" href="https://metrotrack.crane.aero/web/Feedback.xhtml"><i class="fa fa-phone"></i> Talk to Us </a>
+									
+									<div class="clearfix"></div>
+								</li> 
+
+								<li class="dropdown">
+									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-bullseye"></i> Login/Sign Up </a>
+								</li>
+								
+							</ul>
+						</div> 
+
+
+						<!-- END: NAVIGATION -->
+					</div>
+					<!--END: NAV-CONTAINER -->
+				</div>
+			</div>
+			<!-- END: HEADER -->
+		</div>
+	</div>
+
+
+
+	<!-- BEGIN: SEARCH SECTION -->
+	<!--<div class="row full-width-search" >
+		<div class="container clear-padding" >
+			<div class="col-md-8 search-section tran-search-box" >
+				
+				<div role="tabpanel" >-->
+
+					<!-- BEGIN: CATEGORY TAB -->
+				 <!--	<ul class="nav nav-tabs search-top" role="tablist" id="searchTab">
+						<li role="presentation" class="active text-center">
+							<a href="#flight" aria-controls="flight" role="tab" data-toggle="tab">
+								<i class="fa fa-plane"></i> 
+								<span>FLIGHTS</SPAN>
+							</a>
+						</li>
+						<li role="presentation" class="text-center">
+							<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">
+								<i class="fa fa-ticket"></i> 
+								<span>MANAGE BOOKINGS</span>
+							</a>
+						</li>
+					
+					<li role="presentation" class="text-center">
+							<a href="#online" aria-controls="online" role="tab" data-toggle="tab">
+								<i class="fa fa-briefcase"></i> 
+								<span>ONLINE CHECK-IN</span>
+							</a>
+						</li> 
+						<li role="presentation" class="text-center">
+						<!--	<a href="#affinity" aria-controls="affinityaffinity" role="tab" data-toggle="tab">
+							<a href="https://arikair.crane.aero/web/MemberLogin.xhtml" aria-controls="affinityaffinity" role="tab">
+								<i class="fa fa-bullseye"></i> 
+								<span>AFFINITY WINGS</span>
+							</a>
+						</li>
+		
+							
+					</ul>-->
+					<!-- END: CATEGORY TAB -->
+
+					<!-- BEGIN: TAB PANELS -->
+					 <!--<div class="tab-content">
+							<!-- BEGIN: FLIGHT SEARCH -->
+						  <!--	<div role="tabpanel" class="tab-pane active" id="flight">
+							
+
+
+							 <!--	<div class="col-md-12 product-search-title">Book Flight Tickets</div>-->
+					 <!--<div id="tripTypeArea">
+                         <div class="col-md-12 search-col-padding">
+                            <label for="tripType:1">Round Trip</label>
+                            <input type="radio" id="tripType:1" value="ROUND_TRIP" onclick="flightSearch.selectTripType(this.value)"> 
+                            <label for="tripType:0">One Way</label>
+                            <input type="radio" id="tripType:0" value="ONE_WAY"    onclick="flightSearch.selectTripType(this.value)"> 
+                        </div>
+                    </div>-->
+
+ <!--<div class="clearfix"></div>
+
+                        <div id="depPortArea" class="col-md-6 col-sm-6 search-col-padding">
+                        	<label>Flying From</label>
+										<div class="input-group">
+											            <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            <select id="depPort" placeholder="From" class="form-control" onchange="flightSearch.selectDepPort(this.value)">
+                            </select>
+                
+										</div>
+                        </div>
+
+                        <div id="arrPortArea" class="col-md-6 col-sm-6 search-col-padding">
+                        	<label>Flying To</label>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            <select id="arrPort" class="form-control" placeholder="To" onchange="flightSearch.selectArrPort(this.value)">
+                            </select>
+                            
+										</div>
+                        </div>
+
+                       
+
+<div class="clearfix"></div>-->
+
+     <!--                   
+ <div id="departureDateArea" class="col-md-6 col-sm-6 search-col-padding">
+                        	<label>Departure Date</label>
+										<div class="input-group date datepicker" >
+											  <span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+                            </span>
+                            <input type='text' class="form-control" id="departureDate" format="dd/MM/yyyy" onchange="flightSearch.selectDepartureDate(this.value); $('#returnDate').calendarsPicker('option', 'minDate', this.value) ">
+                        
+                        </div>
+                        </div>
+
+                        <div id="returnDateArea" class='col-md-6 col-sm-6 search-col-padding'>
+                        	<label>Return Date</label>
+                        	<div class="input-group date datepicker">
+                        		  <span class="input-group-addon">
+                                <span class="fa fa-calendar"></span>
+                            </span>
+                            <input type='text' class="form-control" id="returnDate" format="dd/MM/yyyy" onchange="flightSearch.selectReturnDate(this.value); $('#departureDate').calendarsPicker('option', 'maxDate', this.value)">
+
+                          
+                            </div>
+                        </div>
+<div class="clearfix"></div>-->
+                       <!-- <div class="row">
+                            <div class="col-md-4 col-sm-4 search-col-padding" id="adultArea">
+                            	<label>Adult</label><br>
+                                <select placeholder="Adult" class="form-control" id="adult" ></select>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 search-col-padding" id="childArea">
+                            	<label>Child</label><br>
+                                <select placeholder="Child" class="form-control"  id="child"></select>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 search-col-padding" id="infantArea">
+                            	<label>Infant</label><br>
+                                <select placeholder="Infant" class="form-control"  id="infant"></select>
+                            </div>
+                        </div>
+						<div class="clearfix"></div>
+					<div class="row">
+                        <div id="btnSearchArea" class="col-md-12 search-col-padding" align="right">
+                            <input type="submit" class="search-button btn transition-effect" id="btnSearch" value="Flight Search" onclick="flightSearch.search()">
+                        </div>	
+                    </div>
+
+
+							</div>-->
+							<!-- END: FLIGHT SEARCH -->
+							
+
+<!-- START: HOTEL SEARCH -->
+							<!--<div role="tabpanel" class="tab-pane" id="hotel">
+								<form action="functions.php" method="post">
+									<div class="col-md-12 product-search-title">MANAGE YOUR BOOKINGS</div>
+									<div class="col-md-12 search-col-padding">
+										<label>Reference Number</label>
+										<div class="input-group">
+												<span class="input-group-addon"><i class="fa fa-ticket fa-fw"></i></span>
+											<input type="text" name="pnr" id="pnr" class="form-control" required placeholder="E.g. LM6AG1">
+										
+										</div>
+									</div>
+									<div class="clearfix"></div>
+										<div class="col-md-12 search-col-padding">
+										<label>Last Name</label>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+											<input type="text" name="lname" id="lname" class="form-control" required placeholder="E.g. ADEKUNLE">
+											
+										</div>
+									</div>
+								
+									<div class="clearfix"></div>
+									<div class="col-md-12 search-col-padding" align="right">
+
+										<input type="submit" class="search-button btn transition-effect" name="importschedule" value="Search Ticket">
+									
+									</div>
+									<div class="clearfix"></div>
+								</form>
+							</div>-->
+							<!-- END: HOTEL SEARCH -->
+
+
+							<!--<div role="tabpanel" class="tab-pane" id="online">
+								<form action="functions.php" method="post">
+									<div class="col-md-12 product-search-title">ONLINE CHECK-IN</div>
+									<div class="col-md-12 search-col-padding">
+										<label>Reference Number</label>
+										<div class="input-group">
+												<span class="input-group-addon"><i class="fa fa-ticket fa-fw"></i></span>
+											<input type="text" name="pnr" id="pnr" class="form-control" required placeholder="E.g. LM6AG1">
+										
+										</div>
+									</div>
+									<div class="clearfix"></div>
+										<div class="col-md-12 search-col-padding">
+										<label>First Name</label>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+											<input type="text" name="fname" id="lname" class="form-control" required placeholder="E.g. CIROMA">
+											
+										</div>
+									</div>
+									<div class="clearfix"></div>
+										<div class="col-md-12 search-col-padding">
+										<label>Last Name</label>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+											<input type="text" name="lname" id="lname" class="form-control" required placeholder="E.g. ADEKUNLE">
+											
+										</div>
+									</div>
+								
+									<div class="clearfix"></div>
+									<div class="col-md-12 search-col-padding" align="right">
+
+										<input type="submit" class="search-button btn transition-effect" name="onlinecheckin" value="Submit">
+									
+									</div>
+									<div class="clearfix"></div>
+								</form>
+							</div> <br>-->
+							
+							<!-- BEGIN: ALERT MESSAGE -->
+							
+					
+					<!--<div class="alert alert-danger">
+					
+						Due to on going union action at MMA2, all <strong>Arik Air</strong> flights to <strong>Port Harcourt </strong>will operate from the General Aviation Terminal, MMA1 (GAT).
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						  </button>
+					</div>-->
+						
+						
+							<!-- END: HOTEL SEARCH -->
+
+							<!-- END:  SEARCH -->
+							
+						</div>
+						<!-- END: TAB PANE -->
+				
+			
+
+		<!--	<div class="offer-slider">
+				<div class="owl-carousel col-md-4 text-right" id="offer1">
+					<div class="item">
+						<h3>Accra</h3>
+						<h4>Double daily flights from Lagos to Accra</h4>
+					
+					</div>
+					<div class="item">
+						<h3>Monrovia</h3>
+						<h4>Fly from Accra to Monrovia</h4>
+				
+					</div>
+					<div class="item">
+						<h3>Dakar</h3>
+						<h4>Weekly Flights from Lagos to Dakar</h4>
+					
+					</div>
+				</div>
+			</div>
+
+		-->
+		
+	
+	<!-- END: SEARCH SECTION -->
+
+
+
+
+<!-- BEGIN: HOW IT WORK -->
+
+
+<section id="how-it-work">
+		<div class="row work-row">
+			<div class="container">
+
+				<h1 style="text-align:center">No Vacancy</h1>
+			
+			<!-- <p>
+			<h2><b>Position Title</b>	 - Passenger Service Agent</h2> <br>
+			<b>Department</b>	         - Ground Operations <br>
+			<b>Reporting to	</b>	     - Duty Manager <br> 
+			<b>Direct reports</b>        - Baggage Handler<br>
+            <b>Location	</b>             - Accra<br>
+			
+			
+			
+			<p>
+			  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">View Job Specifications</a>
+			  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button> -->
+			  <!--<button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>-->
+			</p>
+		<!---	<div class="row">
+			  <div class="col">
+				<div class="collapse multi-collapse" id="multiCollapseExample1">
+				  <div class="card card-body">
+				  
+				  		
+						<div class="accordion" id="accordionExample">
+						  <div class="card">
+							<div class="card-header" id="headingOne">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								  PRIMARY OBJECTIVE <i class="fa fa-angle-down rotate-icon"></i>
+								</button>
+							  </h5>
+							</div>
+
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							  <div class="card-body">
+								Provides front-line customer information and service to a high volume of passengers at the check-in area, ability to focus on the needs of passengers and act to ensure these are met. The flair to combine professionalism and humor thus creating a memorable experience for each passenger is a skill that is essential. 							  </div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="headingTwo">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								 PRINCIPAL ACCOUNTABILITIES <i class="fa fa-angle-down rotate-icon"></i>
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							  <div class="card-body">
+								<ul> 
+									<li>	Direct/assist all departing passengers to Arik Air Ticket Sales / Check-in counters and/or boarding gates.</li> 
+									<li>	Assist all passengers with flight information (e.g. ticket sales counters and check-in closing times, boarding time, reasons for delay etc)</li> 
+									<li>	Keep check-in area clear by directing passengers to their destinations. </li> 
+									<li>	Coordinate with Ramp Agents, aircraft arrival/departure times or any other passenger useful information.</li> 
+									<li>	In case of flight delays, always keep passengers informed (reason for delay and next expected departure time) by terminal announcements. This will be done by FAAN.</li> 
+									<li>	Customer service and care – strong interpersonal skills to deal with general enquiries from the travelling public.</li> 
+									<li>	Perform office duties:</li>
+										<ul>
+											<li>	Starting duty, consult Passenger Services Agent log book for any information/directive from previous shift.</li>
+											<li>	End duty, report log book any useful information for next shift, safe keep Company equipment (radios, mobile phones and files)	</li>				
+										</ul>									
+									<li>	Perform other duties that may be assigned from time to time by your Managers.</li> 
+									<li>	In the event of a flight disruption, arrival or departure, the Passenger Services Agent is expected to stay on until the operational activities of that day have been completed.</li> 
+									
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="headingThree">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								  PERSON SPECIFICATION <i class="fa fa-angle-down rotate-icon"></i>
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							  <div class="card-body">
+								<ul>
+									<li> Ability to work under pressure</li>
+									<li> Strong communications skills</li>
+									<li> Persuasive</li>
+									<li> Interpersonal skills to deal with general enquire from travelling public.</li>
+									<li> Organizational and prioritization </li>
+									<li> Proactive</li>
+									<li> Team player</li>
+									<li> Assertive</li>
+									<li> Customer focused</li>
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						   <div class="card">
+							<div class="card-header" id="headingFour">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								 QUALIFICATION/ EXPERIENCE <i class="fa fa-angle-down rotate-icon"></i>
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+							  <div class="card-body">
+								<ul>
+									<li>   Degree in any field.</li>
+									<li>   Any public relations experience.</li>
+									
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="headingFive">
+							  <h5 class="mb-0">
+								<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								  WORKING RELATIONSHIPS <i class="fa fa-angle-down rotate-icon"></i>
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+							  <div class="card-body">
+								 This role relates with all Baggage Handlers, Duty Managers, Turnaround Coordinators, Station managers
+							 <ul>
+								<li>  </li>
+								<li>  </li>
+								
+
+							</ul>
+							  </div>
+							</div>
+						  </div>
+						 </div>
+				  </div>
+				</div><br>
+				Advert Expires - 14th Mar.<br>
+
+				Location -Accra<br>
+
+				Cv to be sent to- <u><b>aviationhr@arikair.com.</b></u>
+			  </div>
+			</div> -->
+			
+			
+			
+			<!--	<div class="work-step">
+					<div class="col-md-4 col-sm-4 first-step text-center">
+						<i class="fa fa-search"></i>
+						<h5>SEARCH</h5>
+						<p>Search for flights to a destination of your choice within Nigeria, Ghana, Liberia and Senegal.</p>
+					</div>
+					<div class="col-md-4 col-sm-4 second-step text-center">
+						<i class="fa fa-shopping-cart"></i>
+						<h5>SELECT</h5>
+						<p>Flights are scheduled for your comfort &nbsp; convenience.</p>
+					</div>
+					<div class="col-md-4 col-sm-4 third-step text-center">
+						<i class="fa fa-credit-card"></i>
+						<h5>BOOK</h5>
+						<p>Book your flights and pay online with an option to book on-hold and pay later.</p>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		
+		
+</div></div></section>
+<!--END: HOW IT WORK -->
+
+
+<!-- END: PRODUCT SECTION -->
+
+<!-- BEGIN: TOP DESTINATION SECTION -->
+<section id="home-top-destination">
+	<div class="row image-background">
+		<div class="td-overlay">
+			<div class="container">
+				<div class="light-section-title text-center">
+					<h2>GET THE BEST EXPERIENCE</h2>
+				
+					
+			
+				</div>
+				<div class="col-md-10 col-md-offset-1 on-top clear-padding">
+					<div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.2s">
+						<img src="./assets/images/app.png" alt="">
+						<div class="overlay">
+							<div class="wrapper">
+								
+								<h3><span>Metro Track Mobile App</span></h3>
+								<p>For better experience, you can now download our mobile app available on Android and IOS.</p>
+								<a href="https://play.google.com/store/apps/details?id=com.hititcs.arikair"> <i class="fa fa-android"></i> Android Download</a>
+								<a href="https://itunes.apple.com/ng/app/arik-air-mobile-app/id1391645935?mt=8"> <i class="fa fa-android"></i> IOS Download</a>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.1s">
+						<img src="assets\images\2.jpg" alt="">
+						<div class="overlay">
+							<div class="wrapper">
+								
+								<h3><span>Customer Service Week</span></h3>
+								<p>
+								It's our job everyday to make every important aspect of the customer experience better. Thank you for giving us an opportunity to serve you.
+							</p>
+								<a href="#">Happy Customer Service Week.</a>
+							</div>
+						</div>
+					</div> -->
+					<!-- <div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.2s">
+						<img src="assets\images\3.jpg" alt="">
+						<div class="overlay">
+							<div class="wrapper">
+								
+								<h3><span>Celebrating 58th Years</span></h3>
+								<p>May the flag of our country always fly high &nbsp; higher as we mark our 58th year Independence Day. From all of us at Arik</p>
+								<a href="#">Happy Anniversary, Nigeria</a>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix visible-md-block"></div> -->
+			<!--		<div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.1s">
+						<img src="assets/images/10.jpg" alt="">
+						<div class="overlay">
+							<div class="wrapper">
+							
+								<h3><span>The Arik Expereince</span></h3>
+								<p>Your comfort and convenience is our priority and we no stone untouched to provide you the best.</p>
+								<a href="#">Fly with us today</a>
+							</div>
+						</div>
+					</div> -->
+					<div class="col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp" data-wow-delay="0.2s">
+						<img src="./assets/images/agent.jpg" alt="">
+						<div class="overlay">
+							<div class="wrapper">
+								
+								<h3><span>Member Login</span></h3>
+								<p>Become our agent today and earn in every ticket booked.</p>
+								<a href="https://metrotrack.crane.aero/web/MemberLogin.xhtml">Log in</a> 
+							</div>
+						</div>
+					</div>
+					<div class="clearfix visible-md-block"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END: TOP DESTINATION SECTION -->
+
+
+<!-- START: HOT  DEALS -->
+<section>
+	<div class="row hot-deals">
+		<div class="container clear-padding">
+			<div class="section-title text-center">
+				<h2>TOP DESTINATIONS</h2>
+	
+			</div>
+			<div role="tabpanel" class="text-center">
+				
+				<!-- END: CATEGORY TAB -->
+				<div class="clearfix"></div>
+				<!-- BEGIN: TAB PANELS -->
+				<div class="tab-content">
+					<!-- BEGIN: FLIGHT SEARCH -->
+					<div role="tabpanel" class="tab-pane active fade in" id="tab1">
+						
+
+
+							<div class="col-md-6 hot-deal-grid wow slideInRight">
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="./assets/images/lagos.jpg" alt="">
+											<h5>Lagos</h5>
+
+										</div>
+									</div>
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="./assets/images/FCT.jpg" alt="">
+											<h5>Federal Capital Territory</h5>
+
+										</div>
+									</div>
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="./assets/images/port.jpg" alt="">
+											<h5>Port Harcourt</h5>
+
+										</div>
+									</div>
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="./assets/images/akwaibom.jpg" alt="">
+											<h5>Akwa Ibom</h5>
+
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-md-6 hot-deal-grid wow slideInRight">
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="assets\images\tour5.jpg" alt="">
+											<h5>Kaduna</h5>
+
+										</div>
+									</div>
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="./assets/images/jos.jpg" alt="">
+											<h5>Jos</h5>
+
+										</div>
+									</div>
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="assets\images\tour7.jpg" alt="">
+											<h5>Bauchi</h5>
+
+										</div>
+									</div>
+									<div class="col-sm-6 item">
+										<div class="wrapper">
+											<img src="assets\images\tour8.jpg" alt="">
+											<h5>Ibadan</h5>
+								
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END: HOT DEALS -->
+
+<!-- START: FOOTER -->
+<section id="footer">
+	<footer>
+		
+		<div class="main-footer row">
+			<div class="container clear-padding">
+				<div class="col-md-3 col-sm-6 about-box">
+				<h2><img src="./assets/images/metro_logo_3_gnv_icon 33.ico"></h2>
+				
+				<p>Book your train ticket to and from any State of the Federation including FCT with Metro Track..</p>
+			
+				</div>
+				<div class="col-md-3 col-sm-6 links">
+					<h4> </h4>
+					<ul>
+						
+					</ul>
+				</div>
+				<div class="clearfix visible-sm-block"></div>
+				<div class="col-md-3 col-sm-6 links">
+					<h4> </h4>
+					<ul>
+				
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 contact-box">
+					<h4>Contact Us</h4>
+					<p><i class="fa fa-home"></i><strong> Head Office: </strong>Metro Track Centre, 3rd
+						Floor, Febson Mall Opposite Total Filling Station, Wuse Zone 4 FCT Abuja...</p>
+					<p><i class="fa fa-phone"></i> +234 8101 854615</p>
+					<p><i class="fa fa-envelope-o"></i> info@metrotrack.com</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="main-footer-nav row">
+			<div class="container clear-padding">
+				<div class="col-md-6 col-sm-6">
+					<p>Copyright &copy; 2018 Metro Track Limited. All Rights Reserved.</p>
+				</div>
+				
+				<div class="go-up">
+					<a href="#"><i class="fa fa-arrow-up"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</section>
+<!-- END: FOOTER -->
+
+
+</body>
+
+</html>
+
+							<!-- Load Scripts -->
+<!--<script src="assets/js/respond.js"></script>-->
+<script src="assets\plugins\owl.carousel.min.js"></script>
+
+<script src="assets\js\jquery-ui.min.js"></script>
+<script src="assets\js\bootstrap-select.min.js"></script>
+<script src="assets\plugins\wow.min.js"></script>
+<script type="text/javascript" src="assets\plugins\supersized.3.1.3.min.js"></script>
+<script src="assets\js\js.js"></script>
+<script type="text/javascript">  
+
+
+
+			/* SLIDER SETTINGS */
+			jQuery(function($){
+				"use strict";
+				$.supersized({
+				
+					//Functionality
+					slideshow               :   1,		//Slideshow on/off
+					autoplay				:	1,		//Slideshow starts playing automatically
+					start_slide             :   1,		//Start slide (0 is random)
+					random					: 	0,		//Randomize slide order (Ignores start slide)
+					slide_interval          :   10000,	//Length between transitions
+					transition              :   1, 		//0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	500,	//Speed of transition
+					new_window				:	1,		//Image links open in new window/tab
+					pause_hover             :   0,		//Pause slideshow on hover
+					keyboard_nav            :   0,		//Keyboard navigation on/off
+					performance				:	1,		//0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+					image_protect			:	1,		//Disables image dragging and right click with Javascript
+
+					//Size & Position
+					min_width		        :   0,		//Min width allowed (in pixels)
+					min_height		        :   0,		//Min height allowed (in pixels)
+					vertical_center         :   1,		//Vertically center background
+					horizontal_center       :   1,		//Horizontally center background
+					fit_portrait         	:   1,		//Portrait images will not exceed browser height
+					fit_landscape			:   0,		//Landscape images will not exceed browser width
+					
+					//Components
+					navigation              :   1,		//Slideshow controls on/off
+					thumbnail_navigation    :   1,		//Thumbnail navigation
+					slide_counter           :   1,		//Display slide numbers
+					slide_captions          :   1,		//Slide caption (Pull from "title" in slides array)
+					slides 					:  	[		//Slideshow Images
+														{image : 'assets/images/holiday-slide3.jpg', title : 'Slide 2'}, 
+														{image : 'assets/images/hotel-slide.jpg', title : 'Slide 1'},
+														{image : 'assets/images/slide16.jpg', title : 'Slide 3'},
+										{image : 'assets/images/slide18.jpg', title : 'Slide 3'}
+												]
+												
+				}); 
+		    });
+
+
+
+		    
+</script>
+
+
+
+
+
+<script src="js\bootstrap.min.js"></script>
+<script src="js\matchHeight.min.js"></script>
+<script src="js\placeholder.min.js"></script>
+<script src="js\jquery.lazyload.min.js"></script>
+
+
+<!--END CORE JS-->
+<!--PAGES JS-->
+
+<script src="js\moment.min.js"></script>
+<script src="js\jquery.datepicker.min.js"></script>
+<script src="js\jquery.marque.min.js"></script>
+
+
+   
+
+
+
+    <!--END PAGES JS-->
+    <!--CUSTOM JS-->
+
+
