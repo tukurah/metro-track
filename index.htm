@@ -5,13 +5,13 @@
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-93272846-2"></script>
-	<script>
+	<!-- <script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-93272846-2');
-	</script>
+	</script> -->
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="utf-8">
@@ -20,8 +20,8 @@
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Expires" content="0">
 	<meta name="description" content="">
-	<meta name="author" content="Metro Track Limited">
-	<link href="./assets/images/Metro logo.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<meta name="author" content="Metro Track">
+	<link href="./assets/images/Metro favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
 
 	<title>Metro Track</title>
 
@@ -56,37 +56,37 @@
 
 
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		// FlightSearch object is initialized within the new Document Ready Osibanjo LKMZ44
-		$(document).ready(function () {
-			// Please note that window.flightSearch is a global variable
+		// $(document).ready(function () {
+		// 	// Please note that window.flightSearch is a global variable
 
-			try {
+		// 	try {
 
 
-				window.flightSearch = new FlightSearch();
+		// 		window.flightSearch = new FlightSearch();
 
 				// Default HTML standard for date is yyyy-MM-dd, but other versions may be preferred for user experience
-				flightSearch.dateFormat = "dd/MM/yyyy";
+				// flightSearch.dateFormat = "dd/MM/yyyy";
 				/*Optional parameters will be inserted here
 				flightSearch.parameterName = "value";*/
 				/* flightSearch.actionURL = " http://atc-stage.crane.aero/web/RezvEntry.xhtml";*/
 				/*flightSearch.actionURL = "http://atc-stage.crane.aero/web/AvailabilityResults.xhtml";*/
 
-				flightSearch.actionURL = "https://arikair.crane.aero/web/RezvEntry.xhtml";
+				// flightSearch.actionURL = "https://arikair.crane.aero/web/RezvEntry.xhtml";
 
 				// Initializing the script for the flight search panel
-				flightSearch.init();
-			}
-			catch (e) {
-				console.log("could not communicate");
-			}
-		});
+		// 		flightSearch.init();
+		// 	}
+		// 	catch (e) {
+		// 		console.log("could not communicate");
+		// 	}
+		// });
 	</script>
 
-	<!--Onesignal notification script start -->
+	Onesignal notification script start -->
 
-	<link rel="manifest" href="/manifest.json">
+	<!-- <link rel="manifest" href="/manifest.json">
 	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 	<script>
 		var OneSignal = window.OneSignal || [];
@@ -95,7 +95,7 @@
 				appId: "33313e5b-e603-4b29-91a4-1064befd89b1",
 			});
 		});
-	</script>
+	</script> -->
 
 	<!--Onesignal notification script end-->
 
@@ -104,14 +104,14 @@
 <body class="load-full-screen">
 
 	<!-- BEGIN: PRELOADER -->
-	<!-- <div id="loader" class="load-full-screen">
-		<div class="loading-animation">
+	<div id="loader" class="load-full-screen">
+		<!-- <div class="loading-animation">
 			<span><i class="fa fa-train"></i></span>
 			<span><i class="fa fa-user"></i></span>
 			<span><i class="fa fa-ticket"></i></span>
 			<span><i class="fa fa-bag"></i></span>
-		</div>
-	</div> -->
+		</div> -->
+	</div> 
 	<!-- END: PRELOADER -->
 
 
@@ -139,15 +139,22 @@
 								</button>
 
 								<!-- BEGIN: LOGO -->
-								<a class="logo" href="#"><img src="./assets/images/metro_logo_3_gnv_icon 33.ico"> </a>
+								<a class="logo" href="index.html"><img src="./assets/images/metro_logo22222_WRw_icon.ico"> </a>
 							</div>
 
 							<!-- BEGIN: NAVIGATION <ul class="dropdown-menu mega-menu"> -->
 							<div class="navbar-collapse collapse">
 								<ul class="nav navbar-nav navbar-right">
 									<li class="dropdown">
-										<a class="" href="#"><i class="fa fa-home"></i> Home </a>
+										<a class="" href="index.html"><i class="fa fa-home"></i> Home </a>
 
+									</li>
+
+									<li class="dropdown">
+										<a class="dropdown-toggle" href="#"><i class="fa fa-bullseye"></i> About Us </a>
+									<ul>
+										<li><a href="our_team.html">Our Team</a></li>
+									</ul>
 									</li>
 
 									<!-- <li class="dropdown mega">
@@ -157,16 +164,21 @@
 									</li> -->
 
 									<li class="dropdown mega">
-										<a class="" href="https://arikair.crane.aero/web/Feedback.xhtml"><i
-												class="fa fa-phone"></i> Talk to Us </a>
+										<a class="" href="contact_us.html"><i class="fa fa-phone"></i> Contact Us </a>
 
 										<div class="clearfix"></div>
 										
 									</li>
 
 									<li class="dropdown">
-									<a class="dropdown-toggle" href="#" data-toggle="dropdown"><i class="fa fa-bullseye"></i> Login/Sign Up </a>
+									<a class="dropdown-toggle" href="#"><i class="fa fa-user"></i> Login/Sign Up </a>
 									
+									<ul>
+										<li><a href="signup.html">Signup</a></li>
+										<li><a href="login.html">Login</a></li>
+
+									</ul>
+
 								</li>
 
 								</ul>
@@ -196,28 +208,28 @@
 							<li role="presentation" class="active text-center">
 								<a href="#flight" aria-controls="flight" role="tab" data-toggle="tab">
 									<i class="fa fa-train"></i>
-									<span>BOOK NOW</span>
+									<span> BOOK NOW </span>
 								</a>
 							</li>
 							<li role="presentation" class="text-center">
 								<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">
 									<i class="fa fa-ticket"></i>
-									<span>STATUS</span>
+									<span> STATUS </span>
 								</a>
 							</li>
 
 							<li role="presentation" class="text-center">
 								<a href="#online" aria-controls="online" role="tab" data-toggle="tab">
 									<i class="fa fa-briefcase"></i>
-									<span>ONLINE CHECK-IN</span>
+									<span> SCHEDULES </span>
 								</a>
 							</li>
 							<li role="presentation" class="text-center">
 								<!--	<a href="#affinity" aria-controls="affinityaffinity" role="tab" data-toggle="tab">-->
-								<a href="https://metrotrack.crane.aero/web/MemberLogin.xhtml"
+								<a href="signup.html"
 									aria-controls="affinityaffinity" role="tab">
 									<i class="fa fa-bullseye"></i>
-									<span>AGENT LOGIN/SIGN UP</span>
+									<span> AGENT LOGIN/SIGN UP </span>
 								</a>
 							</li>
 
@@ -231,133 +243,232 @@ alert("Welcome to Metro Track Platform");
 
 						<!-- BEGIN: TAB PANELS -->
 						<div class="tab-content">
-							<!-- BEGIN: FLIGHT SEARCH -->
-							<div role="tabpanel" class="tab-pane active" id="flight">
-
-
-
-								<div class="col-md-12 product-search-title">Book Train Tickets</div>
-								<div id="tripTypeArea">
-									<div class="col-md-12 search-col-padding">
-										<label for="tripType:1">Round Trip</label>
-										<input type="radio" id="tripType:1" value="ROUND_TRIP"
-											onclick="flightSearch.selectTripType(this.value)">
-										<label for="tripType:0">One Way</label>
-										<input type="radio" id="tripType:0" value="ONE_WAY"
-											onclick="flightSearch.selectTripType(this.value)">
+								<!-- BEGIN: FLIGHT SEARCH -->
+								<div role="tabpanel" class="tab-pane active" id="flight">
+	
+	
+									<div class="col-md-12 product-search-title" style="color: black ">Book Train Tickets</div>
+									<div id="tripTypeArea">
+										<div class="col-md-12 search-col-padding">
+											<label for="tripType:1">Round Trip</label>
+											<input type="radio" id="tripType:1" value="ROUND_TRIP"
+												onclick="flightSearch.selectTripType(this.value)">
+											<label for="tripType:0">One Way</label>
+											<input type="radio" id="tripType:0" value="ONE_WAY"
+												onclick="flightSearch.selectTripType(this.value)">
+										</div>
 									</div>
+	
+									<div class="clearfix"></div>
+	
+									<div id="depPortArea" class="col-md-6 col-sm-6 search-col-padding">
+										<label>Departure:</label>
+										<div class="input-group">
+												<form action="/action_page.php" method="get">
+													<input list="states" name="state">
+													<datalist id="states">
+																	<option value="Abia">
+																	<option value="Adamawa">
+																	<option value="Akwa Ibom">
+																	<option value="Anambra">
+																	<option value="Bauchi">
+																	<option value="Bayelsa">
+																	<option value="Benue">
+																	<option value="Borno">
+																	<option value="Cross River">
+																	<option value="Delta">
+																	<option value="Ebonyi">
+																	<option value="Enugu">
+																	<option value="Edo">
+																	<option value="Ekiti">
+																	<option value="Gombe">
+																	<option value="Imo">
+																	<option value="Jigawa">
+																	<option value="Kaduna">
+																	<option value="Kano">
+																	<option value="Katsina">
+																	<option value="Kebbi">
+																	<option value="Kogi">
+																	<option value="Kwara">
+																	<option value="Nasarawa">
+																	<option value="Niger">
+																	<option value="Ogun">
+																	<option value="Ondo">
+																	<option value="Osun">
+																	<option value="Oyo">
+																	<option value="Plateau">
+																	<option value="Rivers">
+																	<option value="Sokoto">
+																	<option value="Taraba">
+																	<option value="Yobe">
+																	<option value="Zamfara">
+																		<option value="FCT">
+																	
+													</datalist>
+												  </form>
+											<!-- <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+											<input type="text" id="departure" name="departure"
+												placeholder="Enter your location" /> -->
+											<!--
+											<select id="depPort" placeholder="Your location" class="form-control"
+												onchange="flightSearch.selectDepPort(this.value)">
+											</select>
+	-->
+	
+										</div>
+									</div>
+	
+									<div id="arrPortArea" class="col-md-6 col-sm-6 search-col-padding">
+										<label>Destination:</label>
+										<div class="input-group">
+												<form action="/action_page.php" method="get">
+													<input list="states" name="state">
+													<datalist id="states">
+																	<option value="Abia">
+																	<option value="Adamawa">
+																	<option value="Akwa Ibom">
+																	<option value="Anambra">
+																	<option value="Bauchi">
+																	<option value="Bayelsa">
+																	<option value="Benue">
+																	<option value="Borno">
+																	<option value="Cross River">
+																	<option value="Delta">
+																	<option value="Ebonyi">
+																	<option value="Enugu">
+																	<option value="Edo">
+																	<option value="Ekiti">
+																	<option value="Gombe">
+																	<option value="Imo">
+																	<option value="Jigawa">
+																	<option value="Kaduna">
+																	<option value="Kano">
+																	<option value="Katsina">
+																	<option value="Kebbi">
+																	<option value="Kogi">
+																	<option value="Kwara">
+																	<option value="Nasarawa">
+																	<option value="Niger">
+																	<option value="Ogun">
+																	<option value="Ondo">
+																	<option value="Osun">
+																	<option value="Oyo">
+																	<option value="Plateau">
+																	<option value="Rivers">
+																	<option value="Sokoto">
+																	<option value="Taraba">
+																	<option value="Yobe">
+																	<option value="Zamfara">
+																		<option value="FCT">
+																	
+													</datalist>
+												  </form>
+										<!-- <div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+	
+											<input type="text" id="destination" name="destination"
+												placeholder="Enter your destination" /> -->
+											<!--
+											<select id="arrPort" class="form-control" placeholder="Where you are going"
+												onchange="flightSearch.selectArrPort(this.value)">
+											</select>
+	-->
+										</div>
+									</div>
+	
+									<div class="clearfix"></div>
+	
+	
+									<div id="departureDateArea" class="col-md-6 col-sm-6 search-col-padding">
+										<label>Departure Date:</label>
+										<div class="input-group date datepicker">
+											<span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+	
+											<input type="date" name="date" placeholder="Departure date" >
+										</div>
+									</div>
+	
+									<div id="returnDateArea" class='col-md-6 col-sm-6 search-col-padding'>
+										<label>Return Date:</label>
+										<div class="input-group date datepicker">
+											<span class="input-group-addon">
+												<span class="fa fa-calendar"></span>
+											</span>
+											<input type="date" name="date" placeholder="Return date"> 
+	
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<div class="row">
+										<div class="col-md-4 col-sm-4 search-col-padding" id="adultArea">
+											<label>Adult:</label><br>
+											<input type="number" name="value" placeholder="Adult">
+											<!--										<select placeholder="Adult" class="form-control" id="adult"></select>-->
+										</div>
+	
+										<!-- <div class="col-md-4 col-sm-4 search-col-padding" id="childArea">
+											<label>Child:</label><br>
+											<input type="number" name="value" placeholder="Child">
+											<select placeholder="Child" class="form-control" id="child"></select>
+										</div> -->
+	
+										<div class="col-md-4 col-sm-4 search-col-padding" id="infantArea">
+											<label>Child:</label><br>
+											<input type="number" name="value" placeholder="Infant">
+											<!--										<select placeholder="Infant" class="form-control" id="infant"></select>-->
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<div class="row">
+										<div id="btnSearchArea" class="col-md-12 search-col-padding" align="right">
+											<input type="submit" class="search-button btn transition-effect" id="btnSearch"
+												value="Book Now" onclick="bookNow.search()">
+										</div>
+									</div>
+	
+	
 								</div>
-
-								<div class="clearfix"></div>
-
-								<div id="depPortArea" class="col-md-6 col-sm-6 search-col-padding">
-									<label>Departure</label>
-									<div class="input-group">
-										<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
-										<select id="depPort" placeholder="From" class="form-control"
-											onchange="flightSearch.selectDepPort(this.value)">
-										</select>
-
-									</div>
-								</div>
-
-								<div id="arrPortArea" class="col-md-6 col-sm-6 search-col-padding">
-									<label>Destination</label>
-									<div class="input-group">
-										<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
-										<select id="arrPort" class="form-control" placeholder="To"
-											onchange="flightSearch.selectArrPort(this.value)">
-										</select>
-									</div>
-								</div>
-
-								<div class="clearfix"></div>
-
-
-								<div id="departureDateArea" class="col-md-6 col-sm-6 search-col-padding">
-									<label>Departure Date</label>
-									<div class="input-group date datepicker">
-										<span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
-
-										<input type='text' class="form-control" id="departureDate" format="dd/MM/yyyy"
-											autocomplete="off"
-											onchange="flightSearch.selectDepartureDate(this.value); $('#returnDate').calendarsPicker('option', 'minDate', this.value) ">
-
-									</div>
-								</div>
-
-								<div id="returnDateArea" class='col-md-6 col-sm-6 search-col-padding'>
-									<label>Return Date</label>
-									<div class="input-group date datepicker">
-										<span class="input-group-addon">
-											<span class="fa fa-calendar"></span>
-										</span>
-										<input type='text' class="form-control" id="returnDate" format="dd/MM/yyyy"
-											autocomplete="off"
-											sonchange="flightSearch.selectReturnDate(this.value); $('#departureDate').calendarsPicker('option', 'maxDate', this.value)">
-
-
-									</div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="row">
-									<div class="col-md-4 col-sm-4 search-col-padding" id="adultArea">
-										<label>Adult</label><br>
-										<select placeholder="Adult" class="form-control" id="adult"></select>
-									</div>
-
-									<div class="col-md-4 col-sm-4 search-col-padding" id="childArea">
-										<label>Child</label><br>
-										<select placeholder="Child" class="form-control" id="child"></select>
-									</div>
-
-									<div class="col-md-4 col-sm-4 search-col-padding" id="infantArea">
-										<label>Infant</label><br>
-										<select placeholder="Infant" class="form-control" id="infant"></select>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-								<div class="row">
-									<div id="btnSearchArea" class="col-md-12 search-col-padding" align="right">
-										<input type="submit" class="search-button btn transition-effect" id="btnSearch"
-											value="Book Now" onclick="bookNow.search()">
-									</div>
-								</div>
-
-
-							</div>
-							<!-- END: FLIGHT SEARCH -->
-
+								<!-- END: FLIGHT SEARCH -->
 
 							<!-- START: HOTEL SEARCH -->
 							<div role="tabpanel" class="tab-pane" id="hotel">
 								<form action="functions.php" method="post">
-									<div class="col-md-12 product-search-title">MANAGE YOUR BOOKINGS</div>
+									<div class="col-md-12 product-search-title">STATUS</div>
 									<div class="col-md-12 search-col-padding">
-										<label>Reference Number</label>
+										<label>Full name:</label>
 										<div class="input-group">
 											<span class="input-group-addon"><i class="fa fa-ticket fa-fw"></i></span>
-											<input type="text" name="pnr" id="pnr" class="form-control" required=""
-												placeholder="E.g. LM6AG1">
+											<input type="text" name="pnr" id="pnr" class="form-control" required="*"
+												placeholder="WAAW FOUNDATION">
 
 										</div>
 									</div>
 									<div class="clearfix"></div>
 									<div class="col-md-12 search-col-padding">
-										<label>Last Name</label>
+										<label>Reference number:</label>
 										<div class="input-group">
 											<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
-											<input type="text" name="lname" id="lname" class="form-control" required=""
-												placeholder="E.g. ADEKUNLE">
+											<input type="text" name="lname" id="lname" class="form-control" required="*"
+											placeholder="ZAM596NBD">
 
 										</div>
 									</div>
+									
+<!--
+									<div class="clearfix"></div>
+									<div class="col-md-12 search-col-padding">
+										<label>Email:</label>
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+											<input type="text" name="lname" id="lname" class="form-control" required="*"
+												placeholder="example@gmail.com">
+-->
 
 									<div class="clearfix"></div>
 									<div class="col-md-12 search-col-padding" align="right">
 
-										<input type="submit" class="search-button btn transition-effect"
-											name="importschedule" value="Search Ticket">
+										<input type="submit" class="submit-button btn transition-effect"
+											name="importschedule" value="Check Now">
 
 									</div>
 									<div class="clearfix"></div>
@@ -366,13 +477,18 @@ alert("Welcome to Metro Track Platform");
 							<!-- END: HOTEL SEARCH -->
 
 
+
 							<div role="tabpanel" class="tab-pane" id="online">
 								<form action="functions.php" method="post">
-									<div class="col-md-12 product-search-title">ONLINE CHECK-IN</div>
-									<div class="col-md-12 search-col-padding">
+									<div class="col-md-12 product-search-title">SCHEDULES</div>
+
+									</form>
+									</div>
+
+									<!-- <div class="col-md-12 search-col-padding">
 										<label>Reference Number</label>
 										<div class="input-group">
-											<span class="input-group-addon"><i class="fa fa-ticket fa-fw"></i></span>
+											<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
 											<input type="text" name="pnr" id="pnr" class="form-control" required=""
 												placeholder="E.g. LM6AG1">
 
@@ -407,8 +523,8 @@ alert("Welcome to Metro Track Platform");
 
 									</div>
 									<div class="clearfix"></div>
-								</form>
-							</div> <br>
+								</form> -->
+									</div> <br>
 
 							<!-- BEGIN: ALERT MESSAGE -->
 
@@ -438,13 +554,14 @@ alert("Welcome to Metro Track Platform");
 					</div>
 				</div>
 
+						
 				<div class="offer-slider">
-					<div class="owl-carousel col-md-4 text-right" id="offer1">
+					<div class="owl-carousel col-md-6 text-right" id="offer1">
 						<div class="item">
 							<h3>Owerri</h3>
 							<h4>Daily move from Lagos to Owerri</h4>
-
 						</div>
+
 						<div class="item">
 							<h3>Port Harcourt</h3>
 							<h4>Daily move from Lagos to Port Harcourt</h4>
@@ -479,8 +596,6 @@ alert("Welcome to Metro Track Platform");
 						</div>
 					</div>
 				</div>
-
-
 			</div>
 		</div>
 		<!-- END: SEARCH SECTION -->
@@ -496,18 +611,18 @@ alert("Welcome to Metro Track Platform");
 					<div class="work-step">
 						<div class="col-md-4 col-sm-4 first-step text-center">
 							<i class="fa fa-search"></i>
-							<h5>SEARCH</h5>
-							<p>Search for trains to a destination of your choice within Nigeria.</p>
+							<h5>PLAN</h5>
+							<!-- <p>Search for trains to a destination of your choice within Nigeria.</p> -->
 						</div>
 						<div class="col-md-4 col-sm-4 second-step text-center">
-							<i class="fa fa-train"></i>
-							<h5>SELECT</h5>
-							<p>Trains are scheduled for your comfort &nbsp; convenience.</p>
-						</div>
-						<div class="col-md-4 col-sm-4 third-step text-center">
 							<i class="fa fa-credit-card"></i>
 							<h5>BOOK</h5>
-							<p>Book your trains and pay online with an option to book on-hold and pay later.</p>
+							<!-- <p>Trains are scheduled for your comfort &nbsp; convenience.</p> -->
+						</div>
+						<div class="col-md-4 col-sm-4 third-step text-center">
+							<i class="fa fa-train"></i>
+							<h5>MOVE</h5>
+							<!-- <p>Book your trains and pay online with an option to book on-hold and pay later.</p> -->
 						</div>
 					</div>
 				</div>
@@ -524,9 +639,7 @@ alert("Welcome to Metro Track Platform");
 				<div class="td-overlay">
 					<div class="container">
 						<div class="light-section-title text-center">
-							<h2>GET THE BEST EXPERIENCE</h2>
-
-
+							<h2>BOOK YOUR TRAIN TICKET WITH JUST ONE CLICK WITH OUR MOBILE APP</h2>
 
 						</div>
 						<div class="col-md-10 col-md-offset-1 on-top clear-padding">
@@ -538,15 +651,14 @@ alert("Welcome to Metro Track Platform");
 
 										<h3><span>Metro Tract Mobile App</span></h3>
 										<h5>
-											<p style="font-family:Arial, Helvetica, sans-serif">For better experience,
-												you can now download our mobile app available on
-												Android and IOS.</p>
+											<p style="font-family:Arial, Helvetica, sans-serif">Download our mobile app available on
+												Android and IOS store.</p>
 										</h5>
-										<a href="https://play.google.com/store/apps/details?id=com.hititcs.metrotrack">
-											<i class="fa fa-android"></i> Android Download</a>
+										<a href="https://play.google.com">
+											<i class="fa fa-android"></i> Google play Store</a>
 										<a
-											href="https://itunes.apple.com/ng/app/metro-track-mobile-app/id1391645935?mt=8">
-											<i class="fa fa-android"></i> IOS Download</a>
+											href="https://itunes.apple.com">
+											<i class="fa fa-android"></i> IOS store</a>
 									</div>
 								</div>
 							</div>
@@ -599,7 +711,7 @@ alert("Welcome to Metro Track Platform");
 
 										<h3><span>Member Login</span></h3>
 										<p>Become our agent today and earn in every ticket booked.</p>
-										<a href="https://arikair.crane.aero/web/MemberLogin.xhtml">Log in</a>
+										<a href="login.html">Log in</a>
 									</div>
 								</div>
 							</div>
@@ -613,21 +725,21 @@ alert("Welcome to Metro Track Platform");
 
 
 		<!-- START: HOT  DEALS -->
-		<section>
+		<!-- <section>
 			<div class="row hot-deals">
 				<div class="container clear-padding">
 					<div class="section-title text-center">
 						<h2>TOP DESTINATIONS</h2>
 
 					</div>
-					<div role="tabpanel" class="text-center">
+					<div role="tabpanel" class="text-center"> -->
 
 						<!-- END: CATEGORY TAB -->
 						<div class="clearfix"></div>
 						<!-- BEGIN: TAB PANELS -->
 						<div class="tab-content">
 							<!-- BEGIN: FLIGHT SEARCH -->
-							<div role="tabpanel" class="tab-pane active fade in" id="tab1">
+							<!-- <div role="tabpanel" class="tab-pane active fade in" id="tab1">
 
 
 
@@ -701,7 +813,7 @@ alert("Welcome to Metro Track Platform");
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- END: HOT DEALS -->
 
 		<!-- START: FOOTER -->
@@ -711,7 +823,7 @@ alert("Welcome to Metro Track Platform");
 				<div class="main-footer row">
 					<div class="container clear-padding">
 						<div class="col-md-3 col-sm-6 about-box">
-							<h2><img src="./assets/images/metro_logo_3_gnv_icon 33.ico"></h2>
+							<h2><img src="./assets/images/metro_logo22222_WRw_icon.ico"></h2>
 
 							<p>Book your train ticket to and from any State of the Federation including FCT with Metro Track..
 							</p>
@@ -721,8 +833,10 @@ alert("Welcome to Metro Track Platform");
 							<h4> </h4>
 							<ul>
 								<!-- Trigger the modal with a button -->
+<!--
 								<button type="button" class="btn btn-info btn-lg" data-toggle="modal"
 									data-target="#myModal">Metro Track Terms & Conditions</button>
+-->
 
 								<!-- Modal -->
 								<div class="modal fade" id="myModal" role="dialog">
@@ -2347,7 +2461,7 @@ alert("Welcome to Metro Track Platform");
 				<div class="main-footer-nav row">
 					<div class="container clear-padding">
 						<div class="col-md-6 col-sm-6">
-							<p>Copyright &copy; 2019 Metro Track Limited. All Rights Reserved.</p>
+							<p>Copyright &copy; 2019 Metro Track. All Rights Reserved.</p>
 						</div>
 
 						<div class="go-up">

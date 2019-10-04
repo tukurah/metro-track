@@ -1,73 +1,13 @@
-/**
-*
-* Author: Limpid Themes
-* Last Modified: 09-06-2015
-* Description: Stylesheet used by CRUISE template
-*
-**/
-
-/*********************************************************
-	TABLE OF CONTENTS
-	1. GENERAL STYLES
-	2. PRELOADER 
-	3. SUPERSIZED SLIDER
-	4. NAVIGATION TRANSPARENT MENU 
-	5. LIGHT MENU 
-	6. HOMEPAGE SEARCH BOX
-	7. HOMEPAGE (INDEX-1, INDEX-2, INDEX-3, INDEX-4 ETC.) 
-	8. HOTEL.HTML
-	9. FLIGHT.HTML
-	10. HOLIDAY.HTML
-	11. CAR.HTML
-	12. CRUISE.HTML
-	13. HOTEL-GRID.HTML
-	14. HOTEL-LIST.HTML & HOTEL-LIST-2.html
-	15. FLIGHT.LIST.HTML
-	16. HOTEL-LIST-2.HTML
-	17. HOLIDAYS-GRID.HTML
-	18. HOLIDAYS-GRID-2.HTML
-	19. CRUISE-LIST.HTML
-	20. HOTEL-DETAILED.HTML
-	21. HOTEL-DETAILED-2.HTML
-	22. HOLIDAY-DETAIL.HTML
-	23. FLIGHT-BOOKING.HTML
-	24. HOTEL-BOOKING.HTML
-	25. HOTEL-BOOKING-2.HTML
-	26. THANK-YOU.HTML
-	27. BLOG
-	28. SINGLE BLOG
-	29. CONTACT-US.HTML
-	30. ABOUT-US.HTML
-	31. USER-PROFILE.HTML
-	32. COMING-SOON.HTML
-	33. 404.HTML
-	34. LOADING.HTML
-	35. HOTEL-INDEX.HTML
-	36. HOTEL-INDEX-2.HTML
-	37. HOLIDAY-INDEX.HTML
-	38. HOLIDAY-INDEX-2.HTML
-	39. CAR-INDEX.HTML
-	40. CAR-LIST.HTML
-	41. CAR-DETAILED.HTML
-	42. CAR-DETAILED-2.HTML
-	43. MAIN FOOTER
-	44. GALLERY.HTML
-	45. LOGIN.HTML
-	46. TYPOGRAPHY.HTML
-	47. CRUISE-DETAIL.HTML
-	48. LIST VIEW AND GRID VIEW SWITCH
-**********************************************************/
-
-
 /*********************************************************
 			1. GENERAL STYLES 
 **********************************************************/
-body, html {
-	font-family: 'Raleway';
+body, html 
+{
+	font-family: Arial, Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	color: #07253F;
-	font-size: 15px;
+	font-size: 17px;
+	background-image: url(assets\blur-1239439_1920.jpg);
 }
 a {
 	text-decoration: none;
@@ -98,12 +38,12 @@ h5 {
 	padding: 0;
 }
 .light-row {
-	background: #ffffff;
+	background: black;
 }
 .dark-row {
-	background: #07253F;
+	background:lightgreen;
 	padding: 60px 0;
-	color: #ffffff;
+	color: black;
 }
 .space {
 	width: 100%;
@@ -134,13 +74,13 @@ h5 {
 	margin: 5px 0px 15px;
 }
 #stoggle {
-	background: rgba(10, 49, 82, 0.8);
+	background: lightgreen;
     font-size: 25px;
     padding: 3px 10px;
     position: fixed;
     top: 34%;
 	cursor: pointer;
-	color: #fff;
+	color: black;
 	z-index: 100;
 }
 #color-switcher ul {
@@ -157,7 +97,7 @@ h5 {
 	cursor: pointer;
 }
 #color-switcher .red {
-	background: #34000D;
+	background: black;
 }
 #color-switcher .green {
 	background: #009f8b;
@@ -258,7 +198,7 @@ h5 {
 **********************************************************/
 
 .header-top {
-	background: #07253F;
+	background: lightgreen;
 }
 .navbar-contact {
 	margin: 10px 0;
@@ -282,11 +222,11 @@ h5 {
 	margin: 7px 0 0 15px;
 }
 .navbar-contact a i {
-	color: #34000D;
+	color: lightgreen;
 	margin-right: 5px;
 }
 .navbar-contact .form-control {
-	background: #0A3152 none repeat scroll 0 0;
+	background:lightgreen none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
     box-shadow: none;
@@ -295,10 +235,10 @@ h5 {
     padding: 0 5px 0 10px;
 }
 .navbar-contact .input-group-addon {
-	background: #0A3152 none repeat scroll 0 0;
+	background: lightgreen none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
-    color: #34000D;
+    color: lightgreen;
     padding: 0 10px 0 0;
 	margin-right: 15px;
 }
@@ -307,17 +247,25 @@ h5 {
     -moz-transition-property: color;
     -o-transition-property: color;
     transition-property: color;
-	color: #34000D;
+	color:lightgreen;
 }
 .transparent-menu-top {
-	background: rgba(10, 49, 82, 0.8);
+	background: green;
 }
 .transparent-menu {
-	background: rgba(10, 49, 82, 0.5);
+	background: lightgreen;
 	padding: 10px 0px;
 }
 .transparent-menu i {
 	margin-right: 2px;
+}
+#background{
+	background-image: url(../blur-1239439_1920.jpg);
+	width: auto;
+}
+#bckgnd{
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 .transparent-menu  .navbar {
 	margin: 0px;
@@ -356,17 +304,17 @@ h5 {
 }
 .nav-container .mega-menu .desc h4 {
 	margin-top: 0px;
-	color: #34000D;
+	color:green;
 	font-weight: bold;
 }
 .nav-container .mega-menu .desc p {
-	color: #BEC4C8;
+	color: black;
 	line-height: 2;
 	font-size: 15px;
 }
 .nav-container .mega-menu .desc a {
-	color: #fff !important;
-	background: #34000D;
+	color: black !important;
+	background:green;
 	border: 2px solid transparent;
 	padding: 8px 15px;
 	font-weight: bold;
@@ -376,8 +324,8 @@ h5 {
 	margin-left: 0px !important;
 }
 .nav-container .mega-menu .desc a:hover {
-	color: #34000D;
-	border: 2px solid #34000D;
+	color: rgb(8, 8, 8);
+	border: 2px solid rgb(8, 8, 8);
 	background: transparent;
 }
 .nav-container .mega-menu .links ul {
@@ -393,7 +341,7 @@ h5 {
 	margin-top: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #34000D;
+	color: lightgreen;
 }
 .nav-container .mega-menu .links li:before {
 	content: "\f105";
@@ -406,7 +354,7 @@ h5 {
 	color: #BEC4C8;
 }
 .mega-menu .links a:hover {
-	color: #34000D;
+	color: lightgreen;
 }
 .mega-menu .links .img-div {
 	margin-top: 20px;
@@ -421,20 +369,20 @@ h5 {
 	width: 100%;
 	text-align: center;
 	top: 20%;
-	background: rgba(10, 49, 82, 0.5);
+	background:green;
 	padding: 15px 0px;
 }
 .mega-menu .links .img-div .overlay h5 {
-	color: #fff;
+	color: black;
 	font-size: 24px;
 	font-weight: bold;
 }
 .mega-menu .links .img-div .overlay p {
-	color: #fff;
+	color: black;
 	font-size: 18px;
 }
 .mega-menu .links .img-div .overlay a {
-	color: #fff;
+	color: black;
 	padding: 5px 10px;
 	border: 2px solid #fff;
 	display: inline-block;
@@ -447,7 +395,7 @@ h5 {
 	border-color: transparent;
 }
 .transparent-menu .navbar-nav > li > a {
-	color: #ffffff;
+	color: black;
 	font-weight: bold;
 	font-size: 14px;
 	padding: 15px 20px;
@@ -459,13 +407,13 @@ h5 {
 	-o-transition: all 0.3s ease;
 }
 .transparent-menu .navbar-nav > li > a:hover{
-	color: #34000D;
+	color: green;
 }
 .transparent-menu .navbar-default .navbar-nav > .active > a, 
 .transparent-menu .navbar-default .navbar-nav > .active > a:focus, 
 .transparent-menu .navbar-default .navbar-nav > .active > a:hover {
 	background: transparent;
-	color: #34000D;
+	color: lightgreen;
 }
 .transparent-menu .dropdown-menu > li > a {
 	background: transparent none repeat scroll 0 0;
@@ -483,10 +431,10 @@ h5 {
 	margin-left: -10px;
 }
 .transparent-menu .dropdown-menu > li > a:hover {
-	color: #34000D !important;
+	color: lightgreen !important;
 }
 .transparent-menu .dropdown-menu {
-	background: #07253F;
+	background:green;
 	border: none;
 	font-size: 12px;
 	box-shadow: none;
@@ -502,13 +450,13 @@ h5 {
 .transparent-menu .navbar-default .navbar-nav > .open > a:focus, 
 .transparent-menu .navbar-default .navbar-nav > .open > a:hover {
 	background: transparent;
-	color: #ffffff;
+	color: black;
 }
 .transparent-menu  .navbar-default .navbar-toggle {
-	color: #ffffff;
+	color: black;
 }
 .transparent-menu  .navbar-default .navbar-toggle .icon-bar {
-	background: #ffffff;
+	background: black;
 }
 .transparent-menu .navbar-default .navbar-toggle:focus,
 .transparent-menu .navbar-default .navbar-toggle:hover {
@@ -560,7 +508,7 @@ h5 {
        border: 0;
        -webkit-box-shadow: none;
        box-shadow: none;
-	   background: #07253F;
+	   background:lightgreen;
     }
 }
 @media (min-width: 991px) {
@@ -605,7 +553,7 @@ h5 {
 	font-size: 12px;
 }
 .light-menu .navbar-contact a {
-	color: #07253F;
+	color: lightgreen;
 	padding: 0 10px;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -621,7 +569,7 @@ h5 {
 }
 .light-menu .navbar-header a{
 	font-size: 20px;
-	color: #07253F !important;
+	color: lightgreen !important;
 	letter-spacing: 1px;
 	font-weight: bold;
 }
@@ -629,7 +577,7 @@ h5 {
 	background: transparent;
 }
 .light-menu .navbar-nav > li > a {
-	color: #07253F;
+	color:lightgreen;
 	font-weight: bold;
 	font-size: 14px;
 	padding: 15px 20px;
@@ -654,7 +602,7 @@ h5 {
 }
 .light-menu .dropdown-menu > li > a {
 	background: transparent none repeat scroll 0 0;
-    color: #bec4c8 !important;
+    color: black !important;
     font-size: 12px;
     line-height: 2;
 	position: relative;
@@ -668,20 +616,20 @@ h5 {
 	margin-left: -10px;
 }
 .light-menu .dropdown-menu > li > a:hover {
-	color: #34000D !important;
+	color: green !important;
 }
 .light-menu .dropdown-menu {
-	background: #07253F;
+	background: lightgreen;
 	border: none;
 	font-size: 12px;
 	box-shadow: none;
 	padding: 15px 0px;
 }
 .light-menu .navbar-default .navbar-toggle {
-	color: #07253F;
+	color:lightgreen;
 }
 .light-menu  .navbar-default .navbar-toggle .icon-bar {
-	background: #07253F;
+	background: lightgreen;
 }
 .light-menu .navbar-default .navbar-toggle:focus,
 .light-menu .navbar-default .navbar-toggle:hover {
@@ -708,7 +656,7 @@ h5 {
 
 .home-title {
 	margin-top: 60px;
-	color: #fff;
+	color: black;
 }
 .home-title  h1 {
 	margin-top: 0px;
@@ -730,7 +678,7 @@ h5 {
 	position: relative;
 }
 .search-section .nav-tabs .active:after {
-	background: #34000D none repeat scroll 0 0;
+	background: green none repeat scroll 0 0;
     content: "";
     height: 20px;
     left: 40%;
@@ -744,8 +692,8 @@ h5 {
     width: 20px;
 }
 .search-section .nav-tabs > li > a {
-	color: #ffffff;
-	background: rgba(10, 49, 82, 0.5);
+	color: black;
+	background: lightgreen;
 	letter-spacing: 1px;
 	font-weight: bold;
 	border-radius: 2px 2px 0 0;
@@ -759,18 +707,18 @@ h5 {
 }
 .search-section .nav-tabs > li > a:hover {
 	color: #ffffff;
-	background: #34000D;
+	background:lightgreen;
 	border: 1px solid transparent;
 }
 .search-section .nav-tabs > li.active > a, 
 .search-section .nav-tabs > li.active > a:focus, 
 .search-section .nav-tabs > li.active > a:hover {
 	color: #ffffff;
-	background: #34000D;
+	background: lightgreen;
 	border: 1px solid transparent;
 }
 .search-section .tab-content {
-	color: #07253F;
+	color:lightgreen;
 	background: #fff;
 	padding: 30px 15px;
 }
@@ -784,7 +732,7 @@ h5 {
     border: 1px solid #BEC4C8;
     border-radius: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    color: #07253F;
+    color: lightgreen;
     display: block;
     font-size: 15px;
     height: 40px;
@@ -825,10 +773,10 @@ h5 {
 	padding-top: 15px;
 }
 .search-section option {
-	color: #07253F;
+	color: lightgreen;
 }
 #ui-datepicker-div {
-	background: #07253F;
+	background: lightgreen;
 	z-index: 9999 !important;
 }
 #ui-datepicker-div  table {
@@ -895,12 +843,12 @@ h5 {
     height: 40px;
 }
 .bootstrap-select.btn-group .dropdown-menu {
-	background: #07253F;
+	background: lightgreen;
 	border-radius: 0;
 }
 .bootstrap-select.btn-group .dropdown-menu li a {
 	color: #ffffff;
-	background: #07253F !important;
+	background: lightgreen !important;
 }
 .bootstrap-select.btn-group .dropdown-menu li a:hover {
 	color: #00ADEF;
@@ -909,10 +857,10 @@ h5 {
 	width: 100%;
 }
 .btn:hover {
-	color: #00ADEF;
+	color:green;
 }
 .search-button {
-	background: #34000D;
+	background: green;
     border-radius: 0;
     margin-top: 10px;
     padding: 10px 30px;
@@ -929,12 +877,12 @@ h5 {
 	-o-transition: all 0.3s ease;
 }
 .search-button:hover {
-	background: #07253F;
+	background: rgb(48, 194, 48);
 	color: #fff;
 }
 .owl-theme .owl-dots .owl-dot.active span, 
 .owl-theme .owl-dots .owl-dot:hover span {
-	background: #34000D !important;
+	background: lightgreen !important;
 }
 .offer-slider {
 	margin-top: 200px;
@@ -956,7 +904,7 @@ h5 {
 }
 .offer-slider .item a:hover {
 	color: #fff;
-	background: #34000D;
+	background: lightgreen;
 	border: 2px solid transparent;
 }
 .offer-slider .owl-theme .owl-dots .owl-dot span {
@@ -993,7 +941,7 @@ h5 {
 }
 .bg-slider .carousel-caption a:hover {
 	color: #fff;
-	background: #34000D;
+	background: lightgreen;
 	border: 2px solid transparent;
 }
 .bg-slider .carousel-indicators {
@@ -1040,12 +988,12 @@ h5 {
 .vertical-tab .nav-tabs > li.active > a:focus, 
 .vertical-tab .nav-tabs > li.active > a:hover {
 	background: #fff none repeat scroll 0 0;
-    color: #07253F;
+    color: lightgreen;
     z-index: 2;
 	border-bottom: 1px solid #e6e6e6;
 }
 .offer-box {
-	color: #07253F;
+	color: lightgreen;
 	text-align: center;
 }
 .offer-box img {
@@ -1057,7 +1005,7 @@ h5 {
 	font-weight: bold;
 }
 .offer-box  a {
-	background: #34000D none repeat scroll 0 0;
+	background: green none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 12px;
@@ -1066,24 +1014,26 @@ h5 {
     padding: 8px 10px;
 }
 .offer-box a:hover {
-	background: #00adef;
+	background: green;
 }
 .vertical-search,
 .full-width-search {
 	padding: 45px 0px; 
 }
 .tran-search-box .tab-content {
-	background: rgba(10, 9, 62, 0.5);
-	color: #fff;
+	background: lightgreen;
+	color:black;
+
+	
 }
 .tran-search-box .tab-content .form-control,
 .tran-search-box .input-group-addon,
 .tran-search-box  .custom-select-button {
-	color: #07253F;
+	color: lightgreen;
 	background: #fff;
 }
 .tran-search-box  .nav-tabs {
-	border-bottom: 4px solid #34000D;
+	border-bottom: 4px solid green;
 }
 @media (max-width: 991px) {
 	.offer-slider,
@@ -1163,7 +1113,7 @@ h5 {
 /* ======== Homepage Product Section ========= */
 
 .home-product {
-	color: #07253F;
+	color: lightgreen;
 }
 .home-product h4{
 	font-weight: bold;
@@ -1204,7 +1154,7 @@ h5 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(10, 49, 82, 0.8);
+	background: lightgreen;
 	transform: scale(0);
 	-webkit-transform: scale(0);
 	-ms-transform: scale(0);
@@ -1419,11 +1369,11 @@ h5 {
 }
 .td-overlay {
 	padding: 60px 0px 120px;
-	background: rgba(10, 49, 82, 0.8);
+	background: lightgreen;
 }
 .light-section-title {
 	margin-bottom: 60px;
-	color: #ffffff;
+	color: black;
 }
 .light-section-title h2 {
 	font-weight: 800;
@@ -1529,7 +1479,7 @@ h5 {
 }
 .td-product .overlay a {	
 	text-align: center;
-	background: #34000D;
+	background: lightgreen;
 	color: #fff;
 	padding: 10px 20px;
 	font-weight: bold;
@@ -1553,7 +1503,7 @@ h5 {
 	background: transparent;
 }
 .td-product:hover .overlay {
-	background: rgba(10, 49, 82, 0.8);
+	background: rgba(5, 175, 47, 0.8);
 }
 .td-product:hover p,
 .td-product:hover h3,
@@ -1595,7 +1545,7 @@ h5 {
 .top-offer {
 	padding: 60px 0;
 	background: #ffffff;
-	color: #07253F;
+	color: lightgreen;
 }
 .room-grid-view {
 	border: 1px solid #e6e6e6;
@@ -1682,14 +1632,14 @@ h5 {
     padding: 10px;
 }
 .subscribe-box button {
-	background: #34000D none repeat scroll 0 0;
+	background: lightgreen none repeat scroll 0 0;
     border-radius: 0;
     color: #fff;
     height: 50px;
     width: 100%;
 }
 .subscribe-box button:hover {
-	background: #00adef;
+	background: #34000D;
 	color: #fff;
 }
 .subscribe-row {
@@ -1760,7 +1710,7 @@ h5 {
 	padding: 20px 15px;
 }
 .col-grid .bottom a {
-	background: #34000D none repeat scroll 0 0;
+	background: lightgreen none repeat scroll 0 0;
     color: #fff;
     display: block;
     font-weight: bold;
@@ -1795,7 +1745,7 @@ h5 {
 .col-grid .back-line:after  {
 	content: "";
 	position: absolute;
-	background: #07253F;
+	background: lightgreen;
 	height: 1px;
 	width: 20%;
 	right: 5%;
@@ -1804,7 +1754,7 @@ h5 {
 .col-grid .back-line:before {
 	content: "";
 	position: absolute;
-	background: #07253F;
+	background: green;
 	height: 1px;
 	width: 20%;
 	left: 5%;
@@ -1830,7 +1780,7 @@ h5 {
 	position: relative;
 }
 .hot-deals .nav-tabs .active:after {
-	background: #34000D none repeat scroll 0 0;
+	background: green none repeat scroll 0 0;
     content: "";
     height: 20px;
     left: 40%;
@@ -1846,7 +1796,7 @@ h5 {
 .hot-deals .nav-tabs > li.active > a, 
 .hot-deals .nav-tabs > li.active > a:focus, 
 .hot-deals .nav-tabs > li.active > a:hover {
-	background: #34000D;
+	background: green;
 	color: #fff;
 	border: none;
 	border-radius: 0;
@@ -1876,7 +1826,7 @@ h5 {
 	margin-top: 0px;
 }
 .hot-deal-list .item a {
-	background: #34000D none repeat scroll 0 0;
+	background: green none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-size: 13px;
@@ -1924,7 +1874,7 @@ h5 {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	background: rgba(10, 49, 82, 0.5);
+	background: green;
 	margin: 0;
 	padding: 5px 0px;
 	font-weight: bold;
@@ -1950,7 +1900,7 @@ h5 {
 /************************************************************************
 			9. flight.html CSS Start
 ************************************************************************/
-.flight-search {
+/* .flight-search {
 	background: url('../images/bg-image10.jpg');
 	background-attachment: fixed;
 }
@@ -1965,7 +1915,7 @@ h5 {
 /************************************************************************
 			10. holiday.html CSS Start
 ************************************************************************/
-.holiday-search {
+/* .holiday-search {
 	background: url('../images/bg-image11.jpg');
 	background-attachment: fixed;
 }
@@ -1976,11 +1926,11 @@ h5 {
 #top-holiday-row {
 	background: url('../images/holiday-slide5.jpg');
 	background-attachment: fixed;
-}
+} */
 /************************************************************************
 			11. car.html CSS Start
 ************************************************************************/
-.car-search {
+/* .car-search {
 	background: url('../images/bg-image12.jpg');
 	background-attachment: fixed;
 }
@@ -1991,11 +1941,11 @@ h5 {
 #top-car-row {
 	background: url('../images/hotel-slide4.jpg');
 	background-attachment: fixed;
-}
+} */
 /************************************************************************
 			12. CRUISE.html CSS Start
 ************************************************************************/
-.cruise-search {
+/* .cruise-search {
 	background: url('../images/bg-image13.jpg');
 	background-attachment: fixed;
 }
@@ -2006,7 +1956,7 @@ h5 {
 #top-cruise-row {
 	background: url('../images/cruise.jpg');
 	background-attachment: fixed;
-}
+} */
 /************************************************************************
 			13. hotel-grid.html CSS Start
 ************************************************************************/
@@ -2062,7 +2012,7 @@ h5 {
 }
 .filter-head {
 	color: #fff;
-	background: #07253F;
+	background: green;
 	padding: 15px;
 }
 .filter-head h4 {
@@ -2072,7 +2022,7 @@ h5 {
 }
 .filter-head h4:after {
 	content: "\f0b0";
-	background: #07253F none repeat scroll 0 0;
+	background: green none repeat scroll 0 0;
     border: 4px solid #0A3152;
     border-radius: 50%;
     font-family: "FontAwesome";
@@ -2084,7 +2034,7 @@ h5 {
     width: 40px;
 }
 .filter-area {
-	background: #0A3152;
+	background: green;
 	color: #fff;
 	padding: 15px;
 	margin-bottom: 45px;
@@ -2132,7 +2082,7 @@ h5 {
 	color: #ffffff;
 }
 .price-filter input {
-	background: #0A3152;
+	background: green;
 	border: none;
 	color: #F19C4F;
 	font-weight: bold;
@@ -2424,7 +2374,7 @@ h5 {
 	color: #ffffff;
 }
 .filter-area .stop-filter .btn-primary {
-	background: #00ADEF;
+	background: #34000D;
 	border: transparent;
 	border-radius: 0;
 }
@@ -2530,7 +2480,7 @@ h5 {
 }
 .flight-details .close{
 	font-size: 20px;
-	color: #07253F;
+	color:green;
 	margin-top: -10px;
 }
 .flight-details .modal-dialog {
@@ -4743,7 +4693,7 @@ h5 {
 				29. contact-us.html CSS Start
 *********************************************************************************/
 .contact-address {
-	color: #ffffff;
+	color: #fff;
 	padding: 60px 0px;
 	background: #00adef;
 }
@@ -6132,7 +6082,7 @@ h5 {
 }
 .top-tour {
 	padding: 60px 0px 80px;
-	background: rgba(10, 49, 82, 0.8);
+	background: #34000D;
 	color: #fff;
 }
 .tour-grid {
@@ -6352,7 +6302,7 @@ h5 {
     padding: 8px 10px;
 }
 .page-title3 {
-	background: url('../images/bg-image12.jpg');
+	background: url('../blur-1239439_1920.jpg');
 	background-attachment: fixed;
 	background-size: contain;
 }
@@ -6363,8 +6313,8 @@ h5 {
 
 .work-row {
 	padding: 60px 0px;
-	background: #fff;
-	border-bottom: 1px solid #e6e6e6;
+	background: white;
+	border-bottom: 1px solid white;
 }
 .work-step {
 	position: relative;
@@ -6379,7 +6329,7 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #34000D;
+	background: lightgreen;
 	position: absolute;
 	right: -20%;
 	top: 20%
@@ -6388,7 +6338,7 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #34000D;
+	background: lightgreen;
 	position: absolute;
 	right: -20%;
 	top: 20%
@@ -6397,7 +6347,7 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #34000D;
+	background: lightgreen;
 	position: absolute;
 	left: -20%;
 	top: 20%
@@ -6406,15 +6356,15 @@ h5 {
 	content: "";
 	width: 50%;
 	height: 2px;
-	background: #34000D;
+	background: lightgreen;
 	position: absolute;
 	left: -20%;
 	top: 20%
 }
 .work-step i {
     border-radius: 50%;
-	background: #34000D;
-    color: #fff;
+	background: lightgreen;
+    color: black;
     font-size: 34px;
     height: 80px;
     padding: 23px;
@@ -6714,24 +6664,24 @@ h5 {
 *********************************************************************/
 .main-footer-sub {
 	padding: 45px 0px;
-	background: #0A3152;
-	color: #fff;
+	background: green;
+	color: black;
 }
 .main-footer-sub label {
 	margin-bottom: 10px;
 }
 .main-footer-sub .form-control {
-	background: #07253F;
+	background: green;
 	border-radius: 0;
 	height: 40px;
-	color: #fff;
+	color: black;
 	border: none;
 }
 .main-footer-sub button {
 	height: 40px;
 	border: none;
 	background: #FFFFFF;
-	color: #fff;
+	color: black;
 	width: 100%;
 	font-weight: bold;
 }
@@ -6739,7 +6689,7 @@ h5 {
 	margin-right: 5px;
 }
 .main-footer-sub button:hover {
-	background: #00adef;
+	background: green;
 }
 .main-footer-sub .social-media ul {
 	padding: 0px;
@@ -6749,9 +6699,9 @@ h5 {
 	display: inline;
 }
 .main-footer-sub .social-media li a {
-	background: #FFFFFF none repeat scroll 0 0;
+	background: #fff none repeat scroll 0 0;
     border-radius: 50%;
-    color: #fff;
+    color: black;
     display: inline-block;
     height: 40px;
     margin: 30px 5px 0;
@@ -6766,24 +6716,24 @@ h5 {
 }
 .main-footer {
 	padding: 60px 0px;
-	background: #07253F;
+	background: rgb(77, 161, 77);
 }
 .main-footer .about-box {
-	color: #BEC4C8;
+	color: black;
 	line-height: 2;
 }
 .main-footer .about-box h3 {
 	font-weight: 800;
 	margin-top: 0px;
-	color: #FFFFFF;
+	color: black;
 	margin-bottom: 15px;
 	letter-spacing: 1px;
 }
 .main-footer .about-box a {
 	display: inline-block;
 	padding: 2px 15px;
-	color: #FFFFFF;
-	border: 2px solid #FFFFFF;
+	color: black;
+	border: 2px solid #fff;
 	font-weight: bold;
 }
 .main-footer .links {
@@ -6798,7 +6748,7 @@ h5 {
 .main-footer .links h4,
 .main-footer .contact-box h4, 
 .we-accept h4 {
-	color: #FFFFFF;
+	color: black;
 	margin-top: 0px;
 	text-transform: uppercase;
 	font-weight: 800;
@@ -6810,27 +6760,27 @@ h5 {
 }
 .main-footer .links ul li a,
 .main-footer-nav ul li a {
-	color: #BEC4C8;
+	color: black;
 	margin-left: 15px;
 }
 .main-footer .links ul li a:hover,
 .main-footer-nav ul li a:hover {
-	color: #FFFFFF;
+	color: black;
 }
 .main-footer .links ul li:before {
 	content: "\f105";
 	position: absolute;
 	font-family: "FontAwesome";
-	color: #BEC4C8;
+	color: black;
 }
 .main-footer .contact-box p {
-	color: #BEC4C8;
+	color: black;
 	line-height: 2;
 }
 .main-footer .contact-box p i {
 	border: 2px solid #bec4c8;
     border-radius: 50%;
-    color: #FFFFFF;
+    color: black;
     display: inline-block;
     height: 40px;
     margin-right: 10px;
@@ -6848,8 +6798,8 @@ h5 {
 }
 .main-footer-nav {
 	padding: 30px 0px;
-	background: #0A3152;
-	color: #BEC4C8;
+	background: rgb(43, 100, 43);
+	color: black;
 	position: relative;
 }
 .main-footer-nav p,
@@ -6857,7 +6807,7 @@ h5 {
 	margin-bottom: 0px;
 }
 .main-footer-nav .go-up a {
-	color: #BEC4C8;
+	color: black;
 	padding: 5px 8px;
 }
 @media (max-width:767px) {
@@ -7123,7 +7073,7 @@ h5 {
 	-webkit-transition: all 0.3s ease;
 }
 .cbtn:hover {
-	background: #00adef;
+	background:#34000D;
 }
 .lg-btn {
 	font-size: 20px;
@@ -7367,3 +7317,46 @@ h5 {
 	}
 }
 
+.input-group{
+color: black;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	float: left;
+}
+
+ul li a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: left;
+	padding: 7px;
+	border-radius: 10px;
+	/* font-family: 'Times New Roman', Times, serif; */
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: green;
+}
+
+ul li ul{
+background-color: green;
+}
+
+ul li ul li {
+	float: none;
+}
+
+ul li ul{
+	display: none;
+}
+
+ul li:hover ul {
+	display: block;
+}

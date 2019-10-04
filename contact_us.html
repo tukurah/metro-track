@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact_us.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+$(".btn").click(function(){
+    $("input[type='text'], textarea").val("");
+});
+    });
+    </script>
+</head>
+<body>
+
+    
+    <div class="wrapper">
+        <div class="content">
+            <h1>CONTACT FORM</h1>
+            <h3>Connect and lets hear from you...</h3>
+        </div>
+
+        <div class="form">
+            <div class="top-form">
+                <div class="inner-form">
+                    <div class="label"><h3>Full name:</h3></div>
+                    <input type="text" placeholder="Yakubu Titus">
+                </div>
+                <div class="inner-form">
+                    <div class="label"><h3>Email:</h3></div>
+                    <input type="text" placeholder="example@waawfoundation.org">
+                </div>
+                <div class="inner-form">
+                    <div class="label"><h3>Phone:</h3></div>
+                    <input type="value" placeholder="+1234567890">
+                </div>
+            </div>
+
+            <div class="middle-form">
+                <div class="inner-form">
+                    <div class="label"><h3>Subject:</h3></div>
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="bottom-form">
+                <div class="inner-form">
+                    <div class="label"><h3>Message:</h3></div>
+                    <textarea placeholder="your message"></textarea>
+                </div>
+            </div>
+
+            <div class="btn">send form</div>
+        </div>
+
+        
+    </div>
+
+</body>
+</html>

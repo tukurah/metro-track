@@ -1,0 +1,79 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background: url(./asset/image/IMG_9558.JPG);
+    background-size: cover;
+}
+.signin
+{
+    background: lightgreen;
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 80px;
+    height: 400px;
+/*    margin-left: 180px;*/
+color: red;
+}
+form
+{
+	width: 240px;
+	text-align: center;
+}
+input
+{
+    width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: black;
+}
+input[type=button]
+{
+	border: none;
+	width: 190px;
+	background:green;
+    color:black;
+	font-size: 20px;
+    line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor: pointer;
+/*	text-decoration: none;*/
+}
+ input[type=button]:hover
+{
+	color: white;
+	background-color: black;
+}
+h2
+{
+	color: red;
+}
+a
+{
+	color: black;
+	text-decoration: blink;
+}
+a:hover
+{
+	color: white;
+}
+.container
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+::placeholder {
+	color: aliceblue;
+	opacity: 0.8; /*Firefox*/
+}

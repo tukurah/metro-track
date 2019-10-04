@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background: url(./asset/image/IMG_9558.JPG);
+    background-size: cover;
+}
+a
+{
+	color: black;
+	text-decoration: blink;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-left: 35px;
+}
+.forget
+{
+	background: lightgreen;
+	padding: 40px;
+	width: 240px;
+	height: 340px;
+	margin-left: 180px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+h2
+{
+	margin-top: 28px;
+	margin-left: 10px;
+}
+input[type=text]
+{
+	width: 240px;
+	background: green;
+	border: none;
+	border-bottom: 1px solid white;
+	font-family: 'Play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	text-align: center;
+	color: black;
+}
+input[type=button]
+{
+	border: none;
+	background: green;
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 12px;
+	cursor: pointer;
+	width: 180px;
+	margin-left: 30px;
+}
+input[type=button]:hover
+{
+	background: lightgreen;
+	color: white;
+}
+::placeholder {
+	color: white;
+	opacity: 0.8; /*Firefox*/
+}

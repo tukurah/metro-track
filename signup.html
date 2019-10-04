@@ -1,0 +1,227 @@
+<html>
+
+<head>
+	<meta http=equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Metro Track</title>
+	<link href="signup.css" rel="stylesheet" type="text/css" />
+	
+
+	<!-- <link href="assets\css\animate.min.css" rel="stylesheet"> -->
+	<!-- <link href="assets\css\bootstrap-select.min.css" rel="stylesheet"> -->
+	<!-- <link href="assets\css\owl.carousel.css" rel="stylesheet"> -->
+	<!-- <link href="assets\css\owl-carousel-theme.css" rel="stylesheet"> -->
+	<link href="assets\css\bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- <link href="assets\css\flexslider.css" rel="stylesheet" media="screen"> -->
+	<link href="assets\css\style.css" rel="stylesheet" media="screen">
+	<!-- LIGHT -->
+	<!-- <link rel="stylesheet" type="text/css" href="assets\css\dummy.html" id="select-style"> -->
+	<link href="assets\font-awesome\css\font-awesome.min.css" rel="stylesheet">
+
+	<!-- FONTS -->
+	<link rel="stylesheet" href="css\datepicker.min.css">
+	<!--<link rel="stylesheet" href="master_new.css"> -->
+
+	<!--<link href="css/select2.min.css" rel="stylesheet" />-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,800,700,600' rel='stylesheet' type='text/css'>
+
+	<style>
+		#msg {
+			visibility: hidden;
+			min-width: 250px;
+			background-color: lawngreen;
+			color: black;
+			text-align: center;
+			border-radius: 2px;
+			padding: 16px;
+			position: fixed;
+			z-index: 1;
+			right: 30%;
+			top: 30px;
+			font-size: 17px;
+			margin-right: 30px;
+		}
+
+		#msg.show {
+			visibility: visible;
+			-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+			animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		}
+
+		@-webkit-keyframes fadein {
+			from {
+				top: 0;
+				opacity: 0;
+			}
+
+			to {
+				top: 30px;
+				opacity: 1;
+			}
+		}
+
+		@keyframes fadein {
+			from {
+				top: 0;
+				opacity: 0;
+			}
+
+			to {
+				top: 30px;
+				opacity: 1;
+			}
+		}
+
+		@-webkit-keyframes fadeout {
+			from {
+				top: 30px;
+				opacity: 1;
+			}
+
+			to {
+				top: 0;
+				opacity: 0;
+			}
+		}
+
+		@keyframes fadeout {
+			from {
+				top: 30px;
+				opacity: 1;
+			}
+
+			to {
+				top: 0;
+				opacity: 0;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+		<div class="clearfix"></div>
+		<div class="row transparent-menu">
+			<div class="container clear-padding">
+				<!-- BEGIN: HEADER -->
+				<div class="navbar-wrapper">
+					<div class="navbar navbar-default" role="navigation">
+						<!-- BEGIN: NAV-CONTAINER -->
+						<div class="nav-container">
+							<div class="navbar-header">
+								<!-- BEGIN: TOGGLE BUTTON (RESPONSIVE)-->
+								<button type="button" class="navbar-toggle" data-toggle="collapse"
+									data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+
+								<!-- BEGIN: LOGO -->
+								<a class="logo" href="index.html"><img src="./assets/images/metro_logo22222_WRw_icon.ico"> </a>
+							</div>
+
+							<!-- BEGIN: NAVIGATION <ul class="dropdown-menu mega-menu"> -->
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav navbar-right">
+									<li class="dropdown">
+										<a class="" href="index.html"><i class="fa fa-home"></i> Home </a>
+
+									</li>
+
+									<li class="dropdown">
+										<a class="dropdown-toggle" href="#"><i class="fa fa-bullseye"></i> About Us </a>
+									<ul>
+										<li><a href="our_team.html">Our Team</a></li>
+									</ul>
+									</li>
+
+									<!-- <li class="dropdown mega">
+										<a class="" href="join-us.html"><i class="fa fa-folder"></i> Careers </a>
+
+										<div class="clearfix"></div>
+									</li> -->
+
+									<li class="dropdown mega">
+										<a class="" href="contact_us.html"><i class="fa fa-phone"></i> Contact Us </a>
+
+										<div class="clearfix"></div>
+										
+									</li>
+
+									<li class="dropdown">
+									<a class="dropdown-toggle" href="#"><i class="fa fa-user"></i> Login/Sign Up </a>
+									
+									<ul>
+										<li><a href="signup.html">Signup</a></li>
+										<li><a href="login.html">Login</a></li>
+
+									</ul>
+
+								</li>
+
+								</ul>
+							</div>
+
+
+							<!-- END: NAVIGATION -->
+						</div>
+						<!--END: NAV-CONTAINER -->
+					</div>
+				</div>
+				<!-- END: HEADER -->
+			</div>
+		</div>
+
+	
+	<br>
+	<br>
+	<div class="signup">
+		<form action="http://localhost:3000/sign" method= "POST">
+			<h2 style="color: black;">Sign Up</h2>
+			<input type="text" name="username" placeholder="Full name">
+			<br><br>
+<!--
+			<input type="text" name="username" placeholder="Middle name">
+			<br><br>
+			<input type="text" name="username" placeholder="Last name">
+			<br><br>
+-->
+			<input type="tel" name="usrtel" placeholder="Enter number">
+			<br><br>
+			<input type="date" name="dob" placeholder="Date of birth">
+			<!--		<br><br>-->
+			<!--
+		<input type="radio" name="gender" value="male"> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> Other
+-->
+			<br><br>
+			<input type="password" name="pass" placeholder="Password">
+			<br><br>
+			<input type="password" name="pass" placeholder="Confirm password">
+			<br><br>
+			<input type="text" name="email" placeholder="Email address">
+			<br><br>
+			<input type="button" value="Sign up" onclick="myFunction()"><br><br>
+			<div id="msg">Congratulations you sign up successfully!!</div>
+			<script>
+				function myFunction() {
+					var x = document.getElementById("msg");
+					x.className = "show";
+					setTimeout(function () {
+						x.className =
+							x.className.replace("show", "");
+					}, 3000);
+				}
+			</script>
+			Already have account?<a href="login.html"
+				style="text-decoration: none; font-family: 'Play', sans-serif; color: red;">&nbsp;Log In</a>
+		</form>
+	</div>
+
+</body>
+
+</html>
